@@ -5,7 +5,7 @@
 *.zip
 *.tar
 *.log
-opendata_showroom_org/sqlite3.db
+*.db
 .project
 .pydevproject
 config-scripts
