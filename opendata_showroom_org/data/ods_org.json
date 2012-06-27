@@ -1,0 +1,1061 @@
+[
+	{
+		"pk": 1,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "datenkataloge",
+			"name": "Datenkataloge",
+			"active_color": "#dd6400",
+			"order": 100
+		}
+	}, {
+		"pk": 2,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "demokratie",
+			"name": "Demokratie",
+			"active_color": "#8a0000",
+			"order": 200
+		}
+	}, {
+		"pk": 3,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "politik-verwaltung",
+			"name": "Politik/Verwaltung",
+			"active_color": "#8a0066",
+			"order": 300
+		}
+	}, {
+		"pk": 4,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "verkehr",
+			"name": "Verkehr",
+			"active_color": "#464646",
+			"order": 400
+		}
+	}, {
+		"pk": 5,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "geo-umwelt",
+			"name": "Geo/Umwelt",
+			"active_color": "#008a00",
+			"order": 500
+		}
+	}, {
+		"pk": 6,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "gesellschaft",
+			"name": "Gesellschaft",
+			"active_color": "#000099",
+			"order": 600
+		}
+	}, {
+		"pk": 7,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "wirtschaft-recht",
+			"name": "Wirtschaft/Recht",
+			"active_color": "#a48800",
+			"order": 700
+		}
+	}, {
+		"pk": 1,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_1.jpg",
+			"title": "USA - DATA.gov",
+			"url": "http://www.data.gov",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 100,
+			"desc": "Offizieller Datenkatalog der US-Regierung mit Datens\u00e4tzen aus US-Beh\u00f6rden."
+		}
+	}, {
+		"pk": 2,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_2.jpg",
+			"title": "Gro\u00dfbritannien - data.gov.uk",
+			"url": "http://www.data.gov.uk",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "Datenkatalog der britischen Regierung."
+		}
+	}, {
+		"pk": 3,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_3.jpg",
+			"title": "Deutschland - offenedaten.de",
+			"url": "http://www.offenedaten.de",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 300,
+			"desc": "Von der Community erstellter und noch im Aufbau befindlicher deutscher Datenkatalog."
+		}
+	}, {
+		"pk": 4,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_4.jpg",
+			"title": "Australien - data.gov.au",
+			"url": "http://www.data.gov.au",
+			"country": "au",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 500,
+			"desc": "Datenkatalog der australischen Regierung."
+		}
+	}, {
+		"pk": 5,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_5.jpg",
+			"title": "San Francisco - DataSF",
+			"url": "http://datasf.org",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 800,
+			"desc": "Datenkatalog der Stadt San Francisco, Kalifornien."
+		}
+	}, {
+		"pk": 6,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_6.jpg",
+			"title": "London - london.gov.uk",
+			"url": "http://data.london.gov.uk",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 1200,
+			"desc": "Datenkatalog der Stadt London."
+		}
+	}, {
+		"pk": 7,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_7.jpg",
+			"title": "Weltbank - data.worldbank.org",
+			"url": "http://data.worldbank.org",
+			"country": "",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 1500,
+			"desc": "Datenkatalog der Weltbank mit Entwicklungsdaten, Visualisierungs-Tools und API."
+		}
+	}, {
+		"pk": 8,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_8.jpg",
+			"title": "Paris - PARISDATA",
+			"url": "http://opendata.paris.fr",
+			"country": "fr",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 1300,
+			"desc": "Datenkatalog der Stadt Paris."
+		}
+	}, {
+		"pk": 9,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_9.jpg",
+			"title": "UN - undata",
+			"url": "http://data.un.org",
+			"country": "",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 1600,
+			"desc": "Datenkatalog der Vereinten Nationen (UN) mit Zugriff auf statistische Daten."
+		}
+	}, {
+		"pk": 10,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_10.jpg",
+			"title": "Gro\u00dfbritannien - FixMyStreet",
+			"url": "http://www.fixmystreet.com",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 100,
+			"desc": "Portal auf dem B\u00fcrger lokale Probleme wie Stra\u00dfensch\u00e4den, Grafitti, herumliegender M\u00fcll, usw. an die zust\u00e4ndige Beh\u00f6rde melden k\u00f6nnen."
+		}
+	}, {
+		"pk": 11,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_11.jpg",
+			"title": "Deutschland - Maerker Brandenburg",
+			"url": "http://maerker.brandenburg.de",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "FixMyStreet-\u00e4hnliches Portal von der Landesverwaltung Brandenburg."
+		}
+	}, {
+		"pk": 12,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_12.jpg",
+			"title": "EU - farmsubsidy.org",
+			"url": "http://www.farmsubsidy.org",
+			"country": "eu",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 400,
+			"desc": "Webseite, die die Verteilung von EU-Agrarsubventionen transparent macht."
+		}
+	}, {
+		"pk": 13,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_13.jpg",
+			"title": "EU - fishsubsidy.org",
+			"url": "http://www.fishsubsidy.org",
+			"country": "eu",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 500,
+			"desc": "\u00c4hnlich wie farmsubsidy.org, jedoch mit dem Schwerpunkt auf Subventionen in der Fischerei-Industrie."
+		}
+	}, {
+		"pk": 14,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_14.jpg",
+			"title": "Gro\u00dfbritannien - Where does my money go?",
+			"url": "http://www.wheredoesmymoneygo.org",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 700,
+			"desc": "Webseite, die die Verteilung der britischen Haushaltsgelder transparent macht."
+		}
+	}, {
+		"pk": 15,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_15.jpg",
+			"title": "Deutschland - offener haushalt",
+			"url": "http://www.offenerhaushalt.de",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 800,
+			"desc": "Deutschland - \"Where does my money go?\"-Pendant f\u00fcr den deutschen Bundeshaushalt."
+		}
+	}, {
+		"pk": 16,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_16.jpg",
+			"title": "Deutschland - Frankfurt gestalten",
+			"url": "http://www.frankfurt-gestalten.de",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 500,
+			"desc": "Von der Community entwickelte lokalpolitische Informations- und Austauschplattform."
+		}
+	}, {
+		"pk": 17,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_17.jpg",
+			"title": "Deutschland - meinedemokratie.de",
+			"url": "http://www.meine-demokratie.de",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 600,
+			"desc": "Demokratie-Suchmaschine und Info-Portal zu politischen Beteiligungsm\u00f6glichkeiten und Initiativen in Deutschland."
+		}
+	}, {
+		"pk": 18,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_18.jpg",
+			"title": "USA - OpenCongress",
+			"url": "http://www.opencongress.org",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 100,
+			"desc": "Infoportal der Sunlight Foundation mit dem Ziel, Prozesse, Entscheidungen und Gesetzgebungsverfahren im US-Kongress transparenter zu gestalten."
+		}
+	}, {
+		"pk": 19,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_19.jpg",
+			"title": "Schweiz - Swisstrains.ch",
+			"url": "http://www.swisstrains.ch",
+			"country": "ch",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 900,
+			"desc": "Web-Anwendung mit Live-Anzeige der Positionen/Bewegungen der schweizer Z\u00fcge und U-Bahnen."
+		}
+	}, {
+		"pk": 20,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_20.jpg",
+			"title": "USA - MTA New York Transit",
+			"url": "http://www.mta.info/developers/",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 100,
+			"desc": "Open Data Bereich der \u00f6ffentlichen Verkehrsbetriebe von New York (MTA) mit Bereitstellung unterschiedlicher Fahrplandaten und Apps Center mit \n\t\tentstandenen Anwendungen."
+		}
+	}, {
+		"pk": 21,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 7,
+			"screenshot": "screenshots/website_21.jpg",
+			"title": "Frankreich/Europa - Influence Networks",
+			"url": "http://influencenetworks.org/",
+			"country": "fr",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "Recherche-Werkzeug zur Aufdeckung von Beziehungen zwischen Personen, Verb\u00e4nden und Unternehmen."
+		}
+	}, {
+		"pk": 22,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 7,
+			"screenshot": "screenshots/website_22.jpg",
+			"title": "Deutschland - Lobbypedia",
+			"url": "http://www.lobbypedia.de",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 100,
+			"desc": "Info-Portal zu den Lobbyismus-Aktivit\u00e4ten von Unternehmen und Lobbyorganisationen."
+		}
+	}, {
+		"pk": 23,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_23.jpg",
+			"title": "GB - Malcolm Barclay, London Tube Apps",
+			"url": "http://mbarclay.net",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 800,
+			"desc": "Von privatem Entwickler erstellte iPhone-Anwendungen f\u00fcr die Londoner Tube auf Basis offfener Verkehrsdaten."
+		}
+	}, {
+		"pk": 24,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_24.jpg",
+			"title": "Gro\u00dfbritannien - Where-Can-I-Live",
+			"url": "http://www.where-can-i-live.com",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 700,
+			"desc": "Karten-Anwendung, die offene Verkehrs- mit Immobiliendaten kombiniert und f\u00fcr London m\u00f6gl. Wohnorte in Abh\u00e4ngigkeit von \n\t\tPreisvorstellungen f\u00fcr die Wohnung und L\u00e4nge des Arbeitsweges anzeigt."
+		}
+	}, {
+		"pk": 25,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_25.jpg",
+			"title": "USA - Chicago Transit Authority",
+			"url": "http://www.transitchicago.com/developers/",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "Open Data Bereich der Verkehrsbetriebe von Chicago (cta) mit Programmierschnittstellen f\u00fcr Entwickler und Apps Center."
+		}
+	}, {
+		"pk": 26,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_26.jpg",
+			"title": "USA - City-Go-Round",
+			"url": "http://www.citygoround.org",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 300,
+			"desc": "Suchmaschine f\u00fcr Open Transit-Apps aus den USA."
+		}
+	}, {
+		"pk": 27,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_27.jpg",
+			"title": "USA - Catch The Bus App (Boston)",
+			"url": "http://catchthebusapp.com",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 500,
+			"desc": "iPhone App, die aktuellen Aufenthaltsort und Ankunftszeit des n\u00e4chsten Busses auf Basis von GPS-Signalen anzeigt."
+		}
+	}, {
+		"pk": 28,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_28.jpg",
+			"title": "USA - CrashStat 2.0 (New York City)",
+			"url": "http://www.crashstat.org",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 600,
+			"desc": "Kartenanwendung, die die Unfallh\u00e4ufigkeit auf Kreuzungen und Stra\u00dfen von New York visualisiert."
+		}
+	}, {
+		"pk": 29,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_29.jpg",
+			"title": "USA - Oil Spill Crisis Map",
+			"url": "http://oilspill.labucketbrigade.org",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "Kartenvisualisierung der jeweiligen Verseuchung der K\u00fcstenabschnitte und des Meeres im Rahmen der \u00d6lkatastrophe im Golf von Mexiko."
+		}
+	}, {
+		"pk": 30,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_30.jpg",
+			"title": "USA - Atlanta Crime Maps",
+			"url": "http://crime.mapatl.com",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 400,
+			"desc": "Kartenvisualisierung von Orten und Arten von begangenen Verbrechen in Atlanta, Georgia."
+		}
+	}, {
+		"pk": 32,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_32.jpg",
+			"title": "Canada - RestoNet",
+			"url": "http://resto-net.ca",
+			"country": "ca",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 100,
+			"desc": "Visualisierung von Lebensmittelinspektionen in Montr\u00e9al, Canada."
+		}
+	}, {
+		"pk": 33,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_33.jpg",
+			"title": "Deutschland - Smiley Projekt Pankow",
+			"url": "http://bit.ly/MFfLF",
+			"country": "de",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 300,
+			"desc": "Ergebnisse von Kontrollen gastronomischer Betriebe durch das Lebensmittelaufsichtsamt Berlin-Pankow."
+		}
+	}, {
+		"pk": 34,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_34.jpg",
+			"title": "USA - Sunlight Projects",
+			"url": "http://sunlightfoundation.com/projects",
+			"country": "us",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "Vielzahl an Open Government- und Open Data-Projekten der amerikanischen Sunlight Foundation."
+		}
+	}, {
+		"pk": 35,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_35.jpg",
+			"title": "Gro\u00dfbritannien - They Work For You",
+			"url": "http://www.theyworkforyou.com",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 300,
+			"desc": "Informationen \u00fcber Debatten und Abgeordnete des gro\u00dfbritannischen Parlaments."
+		}
+	}, {
+		"pk": 36,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_36.jpg",
+			"title": "Canada - eatsure",
+			"url": "http://eatsure.ca",
+			"country": "ca",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 200,
+			"desc": "Visualisierung von Lebensmittelinspektionen in London, ebenfalls Canada."
+		}
+	}, {
+		"pk": 37,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_37.jpg",
+			"title": "Canada - Vantrash",
+			"url": "http://vantrash.ca",
+			"country": "ca",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 300,
+			"desc": "Kartenanwendung zur Anzeige der aktuellen M\u00fcllabfuhrtermine in Vancouver, Canada."
+		}
+	}, {
+		"pk": 38,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_38.jpg",
+			"title": "Gro\u00dfbritannien - Flood Alert",
+			"url": "http://www.halcrow.com/floodalert",
+			"country": "gb",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 300,
+			"desc": "iPhone-App mit Flutwarnungen in Echtzeit aus der lokalen Umgebung."
+		}
+	}, {
+		"pk": 39,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_39.jpg",
+			"title": "\u00d6sterreich - ubahnaufzug.at",
+			"url": "http://ubahnaufzug.at",
+			"country": "at",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 1000,
+			"desc": "Community-Plattform mit Meldungen von St\u00f6rungen bei Aufz\u00fcgen und Rolltreppen in den U-Bahn-Stationen in Wien."
+		}
+	}, {
+		"pk": 40,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_40.jpg",
+			"title": "\u00d6sterreich - Budgetvisualisierung (Open3)",
+			"url": "http://www.open3.at/sparpaket",
+			"country": "at",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 900,
+			"desc": "Visualisierung des Budgets sowie einhergehender K\u00fcrzungen des \u00f6sterreichischen Bundeshaushalts auf open3.at."
+		}
+	}, {
+		"pk": 41,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_41.jpg",
+			"title": "\u00d6sterreich - Katalog Offene Daten",
+			"url": "http://offener.datenkatalog.at",
+			"country": "at",
+			"pub_date": "2011-04-15 14:00:00",
+			"order": 400,
+			"desc": "Von der Community erstellter und noch im Aufbau befindlicher \u00f6sterreichischer Datenkatalog."
+		}
+	}, {
+		"pk": 42,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_42.jpg",
+			"title": "Weltweit - OpenStreetMap",
+			"url": "http://www.openstreetmap.org",
+			"country": "",
+			"pub_date": "2011-04-15 15:20:00",
+			"order": 100,
+			"desc": "Kartenanwendung, bei der die Karten von L\u00e4ndern und St\u00e4dten von der Community erstellt und aktualisiert werden."
+		}
+	}, {
+		"pk": 44,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_44.jpg",
+			"title": "Schweiz - geo.admin.ch",
+			"url": "http://geo.admin.ch",
+			"country": "ch",
+			"pub_date": "2011-04-18 20:00:00",
+			"order": 400,
+			"desc": "Geoportal der schweizerischen Bundesverwaltung."
+		}
+	}, {
+		"pk": 45,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_45.jpg",
+			"title": "Weltweit - Public Dataset Browser (CTIC)",
+			"url": "http://datos.fundacionctic.org/sandbox/catalog/faceted/",
+			"country": "",
+			"pub_date": "2011-04-18 20:22:00",
+			"order": 1800,
+			"desc": "Sehr ausf\u00fchrliche Zusammenstellung und Kartenvisualisierung von Datenkatalogen weltweit der spanischen CTIC Foundation."
+		}
+	}, {
+		"pk": 46,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_46.jpg",
+			"title": "Deutschland - wahl.de",
+			"url": "http://www.wahl.de",
+			"country": "de",
+			"pub_date": "2011-04-18 20:34:00",
+			"order": 700,
+			"desc": "Bewertung der Online-Aktivit\u00e4t von Parteien und Politikern."
+		}
+	}, {
+		"pk": 47,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_47.jpg",
+			"title": "Deutschland - deutschland api",
+			"url": "http://www.deutschland-api.de",
+			"country": "de",
+			"pub_date": "2011-04-18 20:46:00",
+			"order": 800,
+			"desc": "Programmierschnittstelle f\u00fcr Entwickler mit Abrufm\u00f6glichkeit von Informationen zu deutschen Politikern, Wahlkreisen und Aussch\u00fcssen."
+		}
+	}, {
+		"pk": 48,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_48.jpg",
+			"title": "Deutschland - Geoportal M\u00fcnsterland",
+			"url": "http://www.stadtplan-muensterland.de/geoportal.0.html",
+			"country": "de",
+			"pub_date": "2011-04-20 23:58:00",
+			"order": 500,
+			"desc": "Kartenanwendung f\u00fcr das M\u00fcnsterland mit einer Integration verschiedener Geodatendienste."
+		}
+	}, {
+		"pk": 49,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_49.jpg",
+			"title": "Deutschland - iPhone Umweltdaten App",
+			"url": "http://itunes.apple.com/de/app/id411290737",
+			"country": "de",
+			"pub_date": "2011-04-21 00:05:00",
+			"order": 600,
+			"desc": "Anzeige von verschiedenen Umwelt-Messdaten aus der direkten Umgebung auf dem iPhone."
+		}
+	}, {
+		"pk": 50,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_50.jpg",
+			"title": "Deutschland - iPhone Verbrechen App",
+			"url": "http://itunes.apple.com/de/app/id413246702",
+			"country": "de",
+			"pub_date": "2011-04-21 00:16:00",
+			"order": 500,
+			"desc": "Anzeige von polizeibekannten Vorf\u00e4llen in der eigenen Stadt/Umgebung als iPhone App."
+		}
+	}, {
+		"pk": 51,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_51.jpg",
+			"title": "Deutschland - abgeordnetenwatch.de",
+			"url": "http://www.abgeordnetenwatch.de/",
+			"country": "de",
+			"pub_date": "2011-04-21 00:33:00",
+			"order": 900,
+			"desc": "Info- und Frage-Portal zu deutschen Abgeordneten von Bundestag, Landtagen und EU-Parlament."
+		}
+	}, {
+		"pk": 52,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_52.jpg",
+			"title": "Deutschland/Weltweit - wheelmap.org",
+			"url": "http://www.wheelmap.org",
+			"country": "de",
+			"pub_date": "2011-04-27 22:44:00",
+			"order": 600,
+			"desc": "Nach dem Wiki-Prinzip erstellte Kartenanwendung mit einem Verzeichnis rollstuhlgerechter Orte und Einrichtungen."
+		}
+	}, {
+		"pk": 53,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_53.jpg",
+			"title": "Deutschland - \u00d6ffi Android App",
+			"url": "http://market.android.com/details?id=de.schildbach.oeffi",
+			"country": "de",
+			"pub_date": "2011-04-27 23:05:00",
+			"order": 1100,
+			"desc": "App f\u00fcr Android Handys, mit der \u00d6PNV-Infos wie Abfahrtszeiten, Haltestellen und Verbindungen f\u00fcr unterschiedliche St\u00e4dte abgerufen werden k\u00f6nnen."
+		}
+	}, {
+		"pk": 54,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_54.jpg",
+			"title": "Australien - National Public Toilet Map",
+			"url": "http://www.toiletmap.gov.au/",
+			"country": "au",
+			"pub_date": "2011-04-27 23:10:00",
+			"order": 700,
+			"desc": "Webseite der australischen Regierung zum Auffinden \u00f6ffentlicher Toiletten."
+		}
+	}, {
+		"pk": 55,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_55.jpg",
+			"title": "Philadelphia - open data Philli",
+			"url": "http://www.opendataphilly.org/",
+			"country": "us",
+			"pub_date": "2011-04-27 23:21:00",
+			"order": 900,
+			"desc": "Datenkatalog der Stadt Philadelphia, Pennsylvania."
+		}
+	}, {
+		"pk": 56,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_56.jpg",
+			"title": "Neuseeland - data.govt.nz",
+			"url": "http://www.data.govt.nz/",
+			"country": "nz",
+			"pub_date": "2011-04-27 23:27:00",
+			"order": 600,
+			"desc": "Offizieller Datenkatalog der neuseel\u00e4ndischen Regierung."
+		}
+	}, {
+		"pk": 57,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_57.jpg",
+			"title": "Navarra - Open Data Navarra",
+			"url": "http://www.navarra.es/home_es/Open-Data/",
+			"country": "es",
+			"pub_date": "2011-04-27 23:33:00",
+			"order": 700,
+			"desc": "Datenkatalog der spanischen Provinz Navarra."
+		}
+	}, {
+		"pk": 58,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_58.jpg",
+			"title": "Open Data Search",
+			"url": "http://opendatasearch.org",
+			"country": "",
+			"pub_date": "2011-05-29 18:36:00",
+			"order": 1700,
+			"desc": "Von der Open Knowledge Foundation entwickelte Open Data Suchmaschine mit der M\u00f6glichkeit einer Suche nach Datens\u00e4tzen aus verschiedenen Datenkatalogen."
+		}
+	}, {
+		"pk": 59,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 6,
+			"screenshot": "screenshots/website_59.jpg",
+			"title": "Toilet Map Vienna",
+			"url": "http://www.layar.com/layers/toiletmapvienna",
+			"country": "at",
+			"pub_date": "2011-05-29 18:52:00",
+			"order": 800,
+			"desc": "Augmented-Reality-Layer auf der Basis von Daten des Wiener Datenkataloges, der den Weg zu \u00f6ffentlichen Toiletten in Wien auf dem Smartphone anzeigt."
+		}
+	}, {
+		"pk": 60,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_60.jpg",
+			"title": "Wien - Open Government Data",
+			"url": "http://data.wien.gv.at",
+			"country": "at",
+			"pub_date": "2011-05-29 19:03:00",
+			"order": 1400,
+			"desc": "Datenkatalog der Stadt Wien."
+		}
+	}, {
+		"pk": 61,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 7,
+			"screenshot": "screenshots/website_61.jpg",
+			"title": "Weltweit - OpenCorporates",
+			"url": "http://opencorporates.com",
+			"country": "",
+			"pub_date": "2011-06-08 22:41:00",
+			"order": 400,
+			"desc": "Offene Datenbank, in der Informationen zu Unternehmen weltweit zusammengetragen werden."
+		}
+	}, {
+		"pk": 62,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_62.jpg",
+			"title": "Baltimore - OpenBaltimore",
+			"url": "http://data.baltimorecity.gov",
+			"country": "us",
+			"pub_date": "2011-06-08 22:52:00",
+			"order": 1000,
+			"desc": "Datenkatalog der Stadt Baltimore, Maryland."
+		}
+	}, {
+		"pk": 63,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_63.jpg",
+			"title": "USA - SFpark (San Francisco)",
+			"url": "http://sfpark.org",
+			"country": "us",
+			"pub_date": "2011-06-08 23:01:00",
+			"order": 400,
+			"desc": "Kartenanwendung mit Anzeige freier Parkpl\u00e4tze in San Francisco auf Basis von Echzeitdaten."
+		}
+	}, {
+		"pk": 64,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_64.jpg",
+			"title": "Weltweit - Mapnificent",
+			"url": "http://www.mapnificent.net",
+			"country": "",
+			"pub_date": "2011-06-08 23:08:00",
+			"order": 1200,
+			"desc": "Kartenanwendung, die f\u00fcr verschiedene St\u00e4dte weltweit anzeigt, wie weit man dort von einem bestimmten Ort ausgehend mit \u00f6ffentlichen Verkehrsmitteln in einer bestimmten Zeit kommt."
+		}
+	}, {
+		"pk": 65,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_65.jpg",
+			"title": "Europa - Its your parliament .eu",
+			"url": "http://www.itsyourparliament.eu",
+			"country": "eu",
+			"pub_date": "2011-06-08 23:17:00",
+			"order": 1100,
+			"desc": "Informationsplattform zum europ\u00e4ischen Parlament mit einem \u00dcberblick zum Abstimmungsverhalten von Parlamentariern und politischen Gruppen."
+		}
+	}, {
+		"pk": 66,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_66.jpg",
+			"title": "Vancouver - Open Data Catalogue",
+			"url": "http://data.vancouver.ca",
+			"country": "ca",
+			"pub_date": "2011-06-30 15:11:00",
+			"order": 1100,
+			"desc": "Datenkatalog der Stadt Vancouver, Kanada."
+		}
+	}, {
+		"pk": 67,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_67.jpg",
+			"title": "Gro\u00dfbritannien - Openly Local",
+			"url": "http://openlylocal.com",
+			"country": "gb",
+			"pub_date": "2011-06-30 16:11:00",
+			"order": 400,
+			"desc": "Informationsplattform zu lokalpolitischen Institutionen, Akteuren und Vorg\u00e4ngen in Gro\u00dfbritannien."
+		}
+	}, {
+		"pk": 68,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_68.jpg",
+			"title": "Deutschland - B\u00fcrgerhaushalt.org",
+			"url": "http://www.buergerhaushalt.org",
+			"country": "de",
+			"pub_date": "2011-06-30 16:19:00",
+			"order": 1000,
+			"desc": "Informationsplattform mit einer \u00dcbersicht zu B\u00fcrgerhaushalten in Deutschland."
+		}
+	}, {
+		"pk": 69,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_69.jpg",
+			"title": "USAspending.gov",
+			"url": "http://usaspending.gov",
+			"country": "us",
+			"pub_date": "2011-06-30 16:38:00",
+			"order": 600,
+			"desc": "Offizielle Informationsplattform zu den Haushaltsausgaben der US-Regierung."
+		}
+	}, {
+		"pk": 70,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_70.jpg",
+			"title": "Europa - Eye on Earth",
+			"url": "http://www.eyeonearth.eu",
+			"country": "eu",
+			"pub_date": "2011-06-30 18:16:00",
+			"order": 800,
+			"desc": "Kartenanwendung mit Informationen zur Luft- und Wasserqualit\u00e4t in Europa."
+		}
+	}, {
+		"pk": 71,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 5,
+			"screenshot": "screenshots/website_71.jpg",
+			"title": "\u00d6sterreich - ozon-info.at",
+			"url": "http://www.ozon-info.at",
+			"country": "at",
+			"pub_date": "2011-06-30 18:29:00",
+			"order": 700,
+			"desc": "Webseite und Smartphone-Anwendung, die f\u00fcr \u00d6sterreich aktuelle Ozonmesswerte f\u00fcr den eigenen Standort anzeigt."
+		}
+	}, {
+		"pk": 72,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 7,
+			"screenshot": "screenshots/website_72.jpg",
+			"title": "Europa - European Union Law API",
+			"url": "http://api.epdb.eu",
+			"country": "eu",
+			"pub_date": "2011-06-30 19:24:00",
+			"order": 300,
+			"desc": "Programmierschnittstelle (API) zur Abfrage von Daten zur Gesetzgebung und von Gesetzestexten der europ\u00e4ischen Union."
+		}
+	}, {
+		"pk": 73,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_73.png",
+			"title": "Berlin - Berlin Open Data",
+			"url": "http://daten.berlin.de/",
+			"country": "de",
+			"pub_date": "2011-10-01 18:46:01",
+			"order": 1450,
+			"desc": "Datenkatalog der Stadt Berlin."
+		}
+	}, {
+		"pk": 74,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_74.png",
+			"title": "Frag den Staat",
+			"url": "https://fragdenstaat.de",
+			"country": "de",
+			"pub_date": "2011-10-02 00:33:28",
+			"order": 450,
+			"desc": "Portal, das Anfragen nach den Informationsgesetzes des Bundes ver\u00f6ffentlicht und B\u00fcrgern dabei hilft, selbst eigene Anfragen zu stellen."
+		}
+	}, {
+		"pk": 75,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_75.png",
+			"title": "API.Leipzig",
+			"url": "http://www.apileipzig.de",
+			"country": "de",
+			"pub_date": "2011-10-02 00:48:02",
+			"order": 1470,
+			"desc": "Standardisierte Schnittstelle f\u00fcr den Zugriff auf \u00f6ffentliche Daten der Stadt Leipzig."
+		}
+	}, {
+		"pk": 76,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_76.png",
+			"title": "Kenya - Open Kenya",
+			"url": "http://opendata.go.ke",
+			"country": "ke",
+			"pub_date": "2011-10-07 00:05:42",
+			"order": 650,
+			"desc": "Datenkatalog der kenyianischen Regierung."
+		}
+	}, {
+		"pk": 77,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 7,
+			"screenshot": "screenshots/website_77.png",
+			"title": "Google Transparency Report",
+			"url": "https://www.google.com/transparencyreport/",
+			"country": "us",
+			"pub_date": "2011-10-07 00:16:36",
+			"order": 500,
+			"desc": "Transparenz-Bericht von Google mit Infos zu Regierungsanfragen zu Usern und zu Bitten, Inhalte von Google-Seiten zu entfernen."
+		}
+	}, {
+		"pk": 78,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_78.png",
+			"title": "Linz - Linz Open Data",
+			"url": "http://data.linz.gv.at",
+			"country": "at",
+			"pub_date": "2011-10-07 00:34:23",
+			"order": 1430,
+			"desc": "Datenkatalog der Stadt Linz."
+		}
+	}
+]
