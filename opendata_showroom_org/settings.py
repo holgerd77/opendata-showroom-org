@@ -1,8 +1,12 @@
 # Django settings for opendata_showroom_org project.
-import os
+import os, sys
 
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+
+if sys.platform == 'darwin':
+    DEBUG = True
+    TEMPLATE_DEBUG = DEBUG
+else:
+    DEBUG = False
 
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
