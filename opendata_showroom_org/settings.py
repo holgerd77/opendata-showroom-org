@@ -91,17 +91,6 @@ STATICFILES_FINDERS = (
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = '*o$$q-*u#l#k56ex**sv4_fq&amp;j@%cud#@)@9irh0pqz0qn3(a!'
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.core.context_processors.debug',
-    'django.core.context_processors.i18n',
-    'django.core.context_processors.media',
-    'django.core.context_processors.static',
-    'django.core.context_processors.request',
-    'django.contrib.auth.context_processors.auth',
-    'django.contrib.messages.context_processors.messages',
-    'website_showroom.helper.context_processors.showroom',
-)
-
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
@@ -140,6 +129,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'haystack',
     'website_showroom',
+    'opendata_showroom_org',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -181,6 +171,7 @@ HAYSTACK_CONNECTIONS = {
 
 
 #Showroom specific settings
+'''
 HTML_TITLE = 'Open Data Showroom' # Used for html title tag
 SITE_TITLE = 'Open Data Showroom' # Main title shown on page
 SITE_SUBTITLE = 'Open Data Projekte aus<br />Deutschland, Europa und der Welt' # Subtitle (HTML tags possible)
@@ -197,3 +188,4 @@ FOOTER_LEFT = 'Flaggen: <a href="http://flags.blogpotato.de/" target="_blank">ht
 FOOTER_RIGHT = 'Ein Projekt des <a href="http://www.opendata-network.org" target="_blank">Open Data Network e.V.</a>'
 CONTACT_TITLE = 'Impressum'
 CONTACT_HTML = 'Holger Drewes<br />Allerstr. 5<br />12049 Berlin<br /><br /><br />Holger [[punkt]] Drewes [[aett]] googlemail [[punkt]] com<br>'
+'''
