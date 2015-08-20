@@ -173,23 +173,3 @@ HAYSTACK_CONNECTIONS = {
 
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
-
-#Showroom specific settings
-'''
-HTML_TITLE = 'Open Data Showroom' # Used for html title tag
-SITE_TITLE = 'Open Data Showroom' # Main title shown on page
-SITE_SUBTITLE = 'Open Data Projekte aus<br />Deutschland, Europa und der Welt' # Subtitle (HTML tags possible)
-RSS_TITLE = 'Open Data Showroom - Neue Projekte' # Title for rss feed
-RSS_DESCRIPTION = 'Feed der neuesten Projekte im Showroom.'
-FACEBOOK_URL = 'http://www.facebook.com/pages/Open-Data-Showroom/100380910049003' #Optional, link to Facebook page
-
-HOME_MENU_TITLE = 'Home' # Title of home menu button
-HOME_MENU_COLOR = '#777' # Base color of home menu button
-HOME_MENU_ACTIVE_COLOR = '#000000' # Active color
-HOME_NUM_WEBSITES = 12 # Number of websites for home category
-
-FOOTER_LEFT = 'Flaggen: <a href="http://flags.blogpotato.de/" target="_blank">http://flags.blogpotato.de/</a>'
-FOOTER_RIGHT = 'Ein Projekt des <a href="http://www.opendata-network.org" target="_blank">Open Data Network e.V.</a>'
-CONTACT_TITLE = 'Impressum'
-CONTACT_HTML = 'Holger Drewes<br />Allerstr. 5<br />12049 Berlin<br /><br /><br />Holger [[punkt]] Drewes [[aett]] googlemail [[punkt]] com<br>'
-'''
